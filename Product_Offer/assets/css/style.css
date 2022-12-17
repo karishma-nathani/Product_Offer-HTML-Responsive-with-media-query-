@@ -1,0 +1,643 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+}
+* {
+  box-sizing: border-box;
+}
+.container::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.container{
+	width: 1126px;
+	margin: 0 auto;
+}
+
+.hero-section{
+	background-image: url('../images/banner_side.png');
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 70%;
+}
+.slider-launching{
+	margin-bottom: 41px;
+}
+.flex-mobile{
+	display: flex;
+}
+.box-1{
+	display: flex;
+}
+.box-1 img{
+	position: relative;
+    left: 436px;
+    /*bottom: 220px;*/
+    top: 40px;
+}
+.box-1 h1{
+	position: relative;
+    top: 300px;
+}
+.nav-menu {
+    position: relative;
+    top: 40px;
+}
+.flex-iPhone{
+	display: flex;
+}
+.box-iPhone{
+	display: flex;
+}
+.navbar{
+	display: flex;
+	float: right;
+	margin: -55px 0 0 0;
+}
+.top-nav li a{
+	text-decoration: none;
+	padding: 30px;
+	margin: 10px;
+	color: #fff;
+	font-size: 20px;
+}
+.navbar ul{
+	list-style: none;
+}
+.top-nav li{
+	position: relative;
+}
+.top-nav{
+	display: flex;
+}
+.top-nav #button{
+	border: 1px solid #fff;
+    border-radius: 28px;
+    padding: 5px;
+    margin: 0 0 0 0;
+    background-color: #fff;
+}
+#button a{
+	color: blue;
+}#button a:hover{
+	color: #fff;
+}
+#button:hover{
+	background-color: transparent;
+}
+
+.flex-slider{
+	display: flex;
+	/*margin-top: 0px;*/
+}
+.flex-slider .slider-img-content{
+	width: 40%;
+	margin: 0 15px 0 0;
+}
+.flex-iPhone{
+	display: flex;
+}
+.iPhone-img-content h1{
+	text-align: right;
+}
+.iPhone-img-content img{
+	height: 50%;
+}
+.box-1 img{
+	  animation: bounce2 7s ease infinite;
+}
+.box-iPhone img{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	animation: bounce2 7s ease infinite;
+}
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(-40);}
+	60% {transform: translateY(-40px);}
+	60% {transform: translateY(-40px);}
+}
+.timer-table{
+	position: absolute;
+    top: 198px;
+    padding: 20px;
+}
+.timer-table td {
+    padding: 10px;
+    text-align: center;
+    font-size: 27px;
+}
+table {
+    background: linear-gradient(135deg, rgba(91,44,208,1) 0%, rgba(83,98,215,1) 100%);
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px;
+
+    animation: mymove 3s;
+}
+@keyframes mymove {
+  10%{transform: rotate(360deg);}
+}
+.timer-table #buy{
+	font-size: 15px;
+	border-radius: 14px;
+	height: 41px;
+    width: 121px;
+    background-color: #DCDCDC;
+    border-color: #DCDCDC;
+    color: #787878;
+}
+.timer-table #buy:hover{
+   	background: rgba(91,44,208,1);
+    color: #fff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.timer-table #learn{
+	font-size: 15px;
+	border-radius: 14px;
+	height: 41px;
+    width: 121px;
+    background-color: #5a3ec9;
+    border-color: #5a3ec9;
+    color: #fff;
+    margin-right: 32px;
+}
+.timer-table #learn:hover{
+   	opacity: 0.9;
+    cursor: pointer;
+}
+.timer-table h3{
+	opacity: 0;
+  	animation: fadeIn 1s ease-in-out 1s forwards;
+}
+.timer-table h2{
+	opacity: 0;
+  	animation: fadeIn 1s ease-in-out 2s forwards;	
+}
+.timer-table button{
+	opacity: 0;
+  	animation: fadeIn 1s ease-in-out 3s forwards;
+}
+.content-right h4{
+	opacity: 0;
+  	animation: fadeIn 1s ease-in-out 1s forwards;
+}
+.content-right h1{
+	opacity: 0;
+  	animation: fadeIn 1s ease-in-out 2s forwards;
+}
+.content-right h3{
+	opacity: 0;
+  	animation: fadeIn 1s ease-in-out 3s forwards;
+}
+.content-right h2{
+	opacity: 0;
+  	animation: fadeIn 1s ease-in-out 4s forwards;
+}
+.content-right button{
+	opacity: 0;
+  	animation: fadeIn 1s ease-in-out 5s forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+}
+.timer-details{
+	margin: 10px;
+}
+.slider-iPhone{
+	background-image: url(../images/banner_side.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-color: #4c4abf;
+	position: relative;
+}
+.box-iPhone{
+	position: relative;
+}
+.macb-img{
+	position: relative;
+}
+.content-right {
+    position: absolute;
+    bottom: 10%;	
+    color: #fff;
+    /*z-index: 12;*/
+    right: 0%;
+}
+.box-iPhone .content-right{
+	position: absolute;
+    bottom: 30%;	
+    color: #fff;
+    right: 10%;
+}
+.content-right button{
+	font-size: 15px;
+	border-radius: 14px;
+	height: 41px;
+    width: 121px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #5a3ec9;
+}
+.content-right button:hover{
+    background-color: #5a3ec9;
+    border-color: #5a3ec9;
+    color: #fff;
+    cursor: pointer;
+}
+.iPhone{
+	position: relative;
+    /*bottom: 420px;*/
+}
+.sticky-nav li{
+	list-style: none;
+	margin: 15px;
+}
+.sticky-nav li a{
+	text-decoration: none;
+	color: black;
+	margin-top: 10px;
+}
+.sticky-nav ul{
+	display: flex;
+	float: right;
+	margin: 15px;
+}
+.sticky-nav{
+	display: flex;
+	background-color: #FFFFF0;
+	/*position: absolute;*/
+    bottom: 500px;
+}
+.logo-sticky{
+	margin: 21px;
+}
+.sticky-nav li a:hover{
+	color: blue;
+}
+.mobile_ h1{
+	text-align: center;
+}
+.content-left{
+	/*position: absolute;*/
+    top: 30%;	
+}
+.slider-img-content{
+	/*position: relative;*/
+}
+.iPhone-img-content{
+	/*position: relative;*/
+	display: flex;
+}
+.scheme-off h2{
+	border: 1px solid;
+	border-radius: 20px;
+	text-align: center;
+	margin: 16px 430px;
+	padding: 5px;
+	background-color: #5a3ec9;
+	color: #fff;
+}
+.flex-mobile{
+	display: flex;
+	margin-top: 35px;
+	position: relative;
+}
+.flex-mobile1 .boxes{
+	margin: 8px;
+    border: 1px solid #D3D3D3;
+    border-radius: 16px;
+    padding: 57px;
+    background-color: #F8F8FF;
+}
+.flex-mobile1 button[type=submit]{
+	font-size: 15px;
+	border-radius: 14px;
+	height: 41px;
+    width: 121px;
+    background-color: #5a3ec9;
+    border-color: #5a3ec9;
+    color: #fff;
+}
+.flex-mobile1 button[type=submit]:hover{
+	opacity: 0.9;
+	cursor: pointer;
+}
+.flex-mobile1 .boxes:hover{
+	border: 1px solid #5a3ec9;
+	cursor: pointer;
+}
+.flex-mobile1 .boxes h3{
+	color: #5a3ec9;
+}
+.flex-mobile1 .boxes s{
+	color: #C0C0C0;
+}
+.ear-banner{
+	background-image: url('../images/bg-ear.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+	position: relative;
+	margin-top: 50px;
+}
+.ear-img img{
+	margin-left: 405px;
+	margin-top: 63px;
+	animation: bounce2 7s ease infinite;
+}
+.slick-ear{
+	position: relative;
+}
+.ear-content{
+	position: absolute;
+    top: 30%;
+    color: #fff;
+}
+.flex-hearphones{
+	display: flex;
+}
+.flex-hearphones .boxes-hs{
+	/*padding: 60px 0 0 121px;
+	display: flex;
+	border: 1px solid;*/
+	margin: 15px 24px;
+    border: 1px solid #D3D3D3;
+    border-radius: 16px;
+    padding: 24px 49px;
+    background-color: #F8F8FF;
+    display: flex;
+}
+.content-hs{
+	margin: 0 0 0 84px;
+}
+.boxes-hs button{
+	font-size: 15px;
+	border-radius: 14px;
+	height: 41px;
+    width: 121px;
+    background-color: #5a3ec9;
+    border-color: #5a3ec9;
+    color: #fff;
+}
+.boxes-hs button:hover{
+	opacity: 0.9;
+	cursor: pointer;
+}
+.flex-hearphones .boxes-hs:hover{
+	border: 1px solid #5a3ec9;
+	cursor: pointer;
+}
+.flex-hearphones .boxes-hs h3{
+	color: #5a3ec9;
+}
+s{
+	color: #C0C0C0;
+}
+.led-background{
+	background-image: url('../images/bg-led.jpg');
+	height: 641px;
+	margin-top: 50px;
+}
+.smart-tv img{
+	margin: 0 0 0 168px;
+    vertical-align: middle;
+}
+.led-background .content{
+	text-align: center;
+	color: #ffffff;
+	padding: 10px;
+}
+.led-background button{
+	font-size: 15px;
+	border-radius: 14px;
+	height: 41px;
+    width: 121px;
+    background-color: #fff;
+    border-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+.led-background button:hover{
+	background-color: transparent;
+	color: #fff;
+}
+.led_ h1{
+	text-align: center;
+}
+.flex-led{
+	display: flex;
+}
+.flex-led .boxes-st {
+    margin: 8px;
+    border: 1px solid #D3D3D3;
+    border-radius: 16px;
+    padding: 54px;
+    background-color: #F8F8FF;
+}
+.flex-led .boxes-st:hover{
+	border: 1px solid #5a3ec9;
+	cursor: pointer;
+}
+.content-st button{
+	font-size: 15px;
+	border-radius: 14px;
+	height: 41px;
+    width: 121px;
+    background-color: #5a3ec9;
+    border-color: #5a3ec9;
+    color: #fff;
+}
+.content-st button:hover{
+	opacity: 0.9;
+	cursor: pointer;
+}
+.content-st h1{
+	font-size: 21px;
+}
+.flex-led .boxes-st s{
+	color: #C0C0C0;
+}
+.slider-watch{
+	background-image:url('../images/banner_side.png');
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-color: #5a3ec9;
+	position: relative;
+	margin-top: 50px;
+}
+.content-left{
+	position: absolute;
+	color: #fff;
+}
+.watch-img-content img{
+	float: right;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	animation: bounce2 7s ease infinite;
+}
+.flex-smart-watch{
+	display: flex;
+}
+.flex-smart-watch .boxes button{
+	font-size: 15px;
+    border-radius: 14px;
+    height: 41px;
+    width: 121px;
+    background-color: #5a3ec9;
+    border-color: #5a3ec9;
+    color: #fff;
+}
+.flex-smart-watch .boxes button:hover{
+	opacity: 0.9;
+    cursor: pointer;
+}
+.watch_ h1{
+	text-align: center;
+}
+.flex-smart-watch .boxes{
+	margin: 8px;
+    border: 1px solid #D3D3D3;
+    border-radius: 16px;
+    padding: 57px;
+    background-color: #F8F8FF;
+}
+.flex-smart-watch .boxes:hover{
+	border: 1px solid #5a3ec9;
+	cursor: pointer;
+}
+.flex-smart-watch h1{
+	font-size: 19px;
+}
+.flex-smart-watch h4{
+	font-size: 11px;
+}
+.macb-banner{
+	background-image: url('../images/bg-img.jpg');
+	background-repeat: round;
+	height: 470px;
+	position: relative;
+	z-index: 12;
+	margin-top: 50px;
+}
+.macb-img img{
+	float: left;
+	height: 300px;
+	margin: 70px 0 0 0;
+	/*position: absolute;*/
+}
+.slick-macb{
+	/*position: relative;*/
+}
+.services{
+	background-color: #5a3ec9;
+	margin-top: 50px;
+}
+.service-content{
+	padding: 0 25px;
+	font-size: small;
+}
+.flex-service{
+	display: flex;
+	color: #fff;
+}
+.flex-service .boxes{
+	display: flex;
+	margin: 8px;
+    padding: 10px;
+}
+.flex-service i{
+	border: 1px solid;
+	border-radius: 68px;
+	font-size: 70px;
+	padding: 24px;
+}
+.flex-footer{
+	display: flex;
+}
+.footer{
+	background-color: black;
+	color: #fff;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #A9A9A9;
+}
+.menu li{
+	list-style: none;
+}
+.boxes a{
+	text-decoration: none;
+	color: #A9A9A9;
+}
+.footer-menu{
+	display: flex;
+}
+.icons-footer{
+	font-size: 21px;
+	padding: 0;
+}
+.icons-footer i{
+	margin: 10px;
+}
+.icons-footer i:hover{
+	cursor: pointer;
+	color: #A9A9A9;
+}
+.flex-footer .boxes{
+	margin: 16px;
+    padding: 19px;
+}
+.footer h3{
+	text-align: center;
+	color: #ffffff;
+}
+.form-footer input[type=text]{
+	border-radius: 5px;
+    padding: 13px;
+    width: 100%;
+    background-color: #A9A9A9;
+    color: #333;
+}
+
+.watch_ button[type=submit]{
+	font-size: 15px;
+	border-radius: 14px;
+	height: 41px;
+    width: 121px;
+    background-color: #5a3ec9;
+    border-color: #5a3ec9;
+    color: #fff;
+}
+.watch_ button[type=submit]:hover{
+	opacity: 0.9;
+	cursor: pointer;
+}
+section.mobile-phones{
+	margin-top: 50px;
+}
+section.led-tv{
+	margin-top: 50px;
+}
+section.smart-watch{
+	margin-top: 50px;
+}
+.main_middle_nav{
+	position: sticky;
+	top: 0;
+	z-index: 15;
+	background-color: #fffff0;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
